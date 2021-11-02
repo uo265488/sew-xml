@@ -1,0 +1,40 @@
+
+
+  /*Especificidad: 001 */
+  header {
+    color: #fff;    
+    background-color:#0A5A71; 
+    text-transform: uppercase; 
+    width: 100%;
+    text-align: center;
+  }
+  
+  /*Especificidad: 003 */
+  h1, h2, h3, h4, h5 {
+    color: #fff;    
+    background-color:#0A5A71; 
+  }
+  
+  /*Especificidad: 001 */
+  p {
+    color: #fff;    
+    background-color: #A02818; 
+  }
+  
+    /*Especificidad: 002 */
+    li, ul {
+      color: #fff;    
+      background-color:#A02818;
+    }
+
+  /*Especificidad: 001 */
+    img{
+        width: auto;
+        height: auto;
+    }
+  /*Especificidad: 001 */
+    video {
+        max-width: 100%;
+        height: auto;     
+        
+    }
