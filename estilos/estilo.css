@@ -38,3 +38,23 @@
         height: auto;     
         
     }
+    /*Especificidad: 001 */
+    main {
+      display: inline-grid;
+      grid-template-columns: auto auto;
+      justify-content: space-around;
+
+      column-gap: 5em;
+      row-gap: 5em;
+
+color: #fff;    
+  background-color:#096e3c; 
+  padding: 2em; 
+  text-align: center;  
+    }
+
+ /*Especificidad: 001 */
+section {
+  justify-self: center;
+}
+
